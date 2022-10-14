@@ -5,7 +5,7 @@ body {
 
 .form-box {
   padding: 20px;
-  margin-left: 25%;
+  margin-left: 27%;
   width: 45%;
   background: linear-gradient(324deg, #232927 4%, transparent 4%) -70px 43px,
     linear-gradient(36deg, #232927 4%, transparent 4%) 30px 43px,
@@ -24,7 +24,8 @@ body {
 }
 
 .main-text {
-  margin-left: 20%;
+  margin-bottom: 3%;
+  margin-left: 27.1%;
 }
 
 button {
@@ -57,7 +58,7 @@ body {
 }
 
 .lines {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   right: 0;
