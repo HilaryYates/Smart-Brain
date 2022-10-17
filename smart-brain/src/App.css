@@ -1,13 +1,12 @@
 body {
-  font-family: "Courier New", Courier, monospace;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .form-box {
   padding: 20px;
   margin-left: 27%;
   width: 45%;
-  background: linear-gradient(324deg, #232927 4%, transparent 4%) -70px 43px,
+  /* background: linear-gradient(324deg, #232927 4%, transparent 4%) -70px 43px,
     linear-gradient(36deg, #232927 4%, transparent 4%) 30px 43px,
     linear-gradient(72deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
     linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
@@ -20,7 +19,7 @@ body {
     linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
     linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
   background-color: #232927;
-  background-size: 100px 100px;
+  background-size: 100px 100px; */
 }
 
 .main-text {
@@ -41,7 +40,8 @@ button {
   padding: 0;
   box-sizing: border-box !important;
 }
-html,
+
+/* html,
 body {
   height: 100%;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .lines {
-  /* position: absolute; */
+  position: absolute; 
   top: 0;
   left: 0;
   right: 0;
@@ -121,4 +121,4 @@ body {
     opacity: 100%;
     top: 110%;
   }
-}
+} */
