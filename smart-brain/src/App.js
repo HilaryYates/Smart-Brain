@@ -59,8 +59,10 @@ class App extends Component {
     )
       .then((response) => response.text())
       .then((response) => JSON.parse(response))
-      .then((result) => {
-        console.log(result.status.description);
+      .then((response) => {
+        console.log(
+          response.outputs[0].data.regions[0].region_info.bounding_box
+        );
       })
       .catch((error) => console.log("error", error));
   };
